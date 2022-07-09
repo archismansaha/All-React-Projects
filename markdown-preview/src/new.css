@@ -1,0 +1,17 @@
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  blockquote {
+    font-size: 2rem;
+    font-style: italic;
+    border-left: 5px solid var(--clr-grey-5);
+    color: var(--clr-grey-5);
+    padding-left: 2rem;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+  }
+  blockquote ::first-letter {
+    text-transform: uppercase;
+  }
